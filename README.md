@@ -1,17 +1,19 @@
 # PCEP™ – Certified Entry-Level Python Programmer (Exam PCEP-30-02) – EXAM SYLLABUS
 
-**PCEP-30-02 Exam**
-Status: Live & Active
+**PCEP-30-02 Exam**  
+*Status: Live & Active*  
 
 The exam consists of four sections:
 
-- Section 1 → 7 items Max Raw Score: 180 (18%)
-- Section 2 → 8 items Max Raw Score: 290 (29%)
-- Section 3 → 7 items Max Raw Score: 250 (25%)
-- Section 4 → 8 items Max Raw Score: 280 (28%)
+- **Section 1** → 7 items Max Raw Score: 180 (18%)
+- **Section 2** → 8 items Max Raw Score: 290 (29%)
+- **Section 3** → 7 items Max Raw Score: 250 (25%)
+- **Section 4** → 8 items Max Raw Score: 280 (28%)
 
-Last updated: February 23, 2022
-Aligned with Exam PCEP-30-02
+*Last updated: February 23, 2022*  
+*Aligned with Exam PCEP-30-02*
+
+---
 
 ## Section 1: Computer Programming and Python Fundamentals (18%)
 
@@ -54,6 +56,8 @@ Aligned with Exam PCEP-30-02
 - the sep= and end= keyword parameters
 - the int() and float() functions
 
+---
+
 ## Section 2: Control Flow – Conditional Blocks and Loops (29%)
 
 **Objectives covered by the block (8 exam items)**
@@ -71,6 +75,8 @@ Aligned with Exam PCEP-30-02
 - nesting loops and conditional statements
 - controlling loop execution with break and continue
 
+---
+
 ## Section 3: Data Collections – Tuples, Dictionaries, Lists, and Strings (25%)
 
 **Objectives covered by the block (7 exam items)**
@@ -83,5 +89,64 @@ Aligned with Exam PCEP-30-02
 - functions: len(), sorted()
 - the del instruction
 - iterating through lists with the for loop
+- initializing loops
+- the in and not in operators
+- list comprehensions
+- copying and cloning
+- lists in lists: matrices and cubes
 
-[Continued...]
+**PCEP-30-02 3.2 – Collect and process data using tuples**
+- tuples: indexing, slicing, building, immutability
+- tuples vs. lists: similarities and differences
+- lists inside tuples and tuples inside lists
+
+**PCEP-30-02 3.3 Collect and process data using dictionaries**
+- dictionaries: building, indexing, adding and removing keys
+- iterating through dictionaries and their keys and values
+- checking the existence of keys
+- methods: keys(), items(), and values()
+
+**PCEP-30-02 3.4 Operate with strings**
+- constructing strings
+- indexing, slicing, immutability
+- escaping using the \ character
+- quotes and apostrophes inside strings
+- multi-line strings
+- basic string functions and methods
+
+---
+
+## Section 4: Functions and Exceptions (28%)
+
+**Objectives covered by the block (8 exam items)**
+
+**PCEP-30-02 4.1 – Decompose the code using functions**
+- defining and invoking user-defined functions and generators
+- the return keyword, returning results
+- the None keyword
+- recursion
+
+**PCEP-30-02 4.2 – Organize interaction between the function and its environment**
+- parameters vs. arguments
+- positional, keyword, and mixed argument passing
+- default parameter values
+- name scopes, name hiding (shadowing), and the global keyword
+
+**PCEP-30-02 4.3 – Python Built-In Exceptions Hierarchy**
+- BaseException
+- Exception
+- SystemExit
+- KeyboardInterrupt
+- abstract exceptions
+- ArithmeticError
+- LookupError
+- IndexError
+- KeyError
+- TypeError
+- ValueError
+
+**PCEP-30-02 4.4 – Basics of Python Exception Handling**
+- try-except / the try-except Exception
+- ordering the except branches
+- propagating exceptions through function boundaries
+- delegating responsibility for handling exceptions
